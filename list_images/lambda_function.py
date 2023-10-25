@@ -11,4 +11,4 @@ def handler(event, context):
 
     object_keys = [obj["Key"] for obj in response["Contents"]]
 
-    return json.dumps(object_keys)
+    return object_keys
